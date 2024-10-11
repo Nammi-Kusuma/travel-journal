@@ -22,7 +22,6 @@
 
 .country {
     display: flex;
-    margin-bottom: 5px;
 }
 
 .sub-loc {
@@ -53,7 +52,7 @@
 }
 
 .description h1 {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .description p {
@@ -68,5 +67,9 @@
 @media (max-width: 820px) {
     .card-location {
         flex-direction: column;
+    }
+
+    .description h1 {
+        margin-top: 5px;
     }
 }
