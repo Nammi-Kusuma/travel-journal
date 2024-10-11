@@ -5,7 +5,7 @@ import data from '../data.js'
 
 function Box() {
     let cardItems = data.map(item => {
-        return <Card key={item.id} item={item}/>
+        return <Card key={item.key} item={item}/>
     })
 
     return (

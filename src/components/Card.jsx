@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 function Card(props) {
-    // console.log(props)
+    console.log(props)
     return (
         <div className="card">
-            <img src={`../src/assets/${props.item.img}`} alt="" className="card-image"/>
+            <img src={props.item.img} alt="" className="card-image"/>
             <div className="description">
                 <div className='card-location'>
                     <div className='country'>
