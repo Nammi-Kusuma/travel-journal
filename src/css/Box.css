@@ -1,0 +1,38 @@
+.box-container {
+    width: 40%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+}
+
+.box {
+    /* min-height: 100vh; */
+    height: auto;
+    border-radius: 20px;
+}
+
+.box-sub {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cards {
+    padding: 40px;
+}
+
+@media (max-width: 1100px) {
+    .box-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 820px) {
+    .box-container {
+        width: 65%;
+    }
+
+    .cards {
+        padding: 25px;
+    }
+}

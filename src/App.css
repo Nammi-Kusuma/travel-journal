@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ddead1;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
